@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.advice {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+h2,
+h4 {
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+h3 {
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    text-shadow: 0 0 6px white;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: 50px auto 20px auto;
+    overflow: auto;
+    height: 200px;
+    white-space: pre-wrap;
+}
+
+h4::-webkit-scrollbar {
+    width: 10px;
+}
+
+h4::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0);
+    border-radius: 20px 20px;
+}
+
+h4::-webkit-scrollbar-thumb {
+    background-color: rgb(253, 253, 115);
+    outline: 1px solid white;
+    border-radius: 20px 20px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.dots span {
+    display: inline-block;
+    background-color: #000;
+    margin: 0 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px white;
+}
+
+.dots span.active {
+    box-shadow: 0 0 0 5px white, 0 0 3px 10px rgb(253, 253, 115);
+
+
+}
+
+label,
+input {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    border: 2px inset rgb(253, 253, 115);
+}
+
+
+
+input:hover,
+input:focus {
+    outline-color: rgb(253, 253, 115);
+}
+
+
+button {
+    padding: 10px;
+    text-align: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+    border: 2px solid rgb(253, 253, 115);
+}
+
+button:hover {
+    outline: none;
+    background-color: rgb(253, 253, 115);
+
+}
